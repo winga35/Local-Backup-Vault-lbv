@@ -1,0 +1,16 @@
+#ifndef UI_CLIENT_DEFINES_H
+#define UI_CLIENT_DEFINES_H
+
+#define UI_CLIENT_BUF 16384
+#define UI_CLIENT_TICK_MS 200
+
+enum e_ui_client_status {
+	UI_CLIENT_OK = 0,
+	UI_CLIENT_NO_DAEMON = -1,
+	UI_CLIENT_ERR_SOCKET = -2,
+	UI_CLIENT_ERR_READ = -3,
+	UI_CLIENT_BUSY = -4,
+	UI_CLIENT_ERR_UI = -5
+};
+
+#endif

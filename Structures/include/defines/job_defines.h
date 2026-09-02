@@ -1,0 +1,18 @@
+#ifndef JOB_DEFINES_H
+#define JOB_DEFINES_H
+
+#define JOB_NAME_MAX 128
+
+#define BACKUP_MODE_SIGNAL 0
+#define BACKUP_MODE_CRON 1
+
+#define BACKUP_FREQ_MIN (5 * 60)
+#define BACKUP_FREQ_MAX (360 * 24 * 3600)
+
+#define JOB_ENABLED 1
+#define JOB_DISABLED 0
+#define JOB_RETENTION_MIN 1
+#define JOB_RETENTION_MAX 500
+#define JOB_RETENTION_DEFAULT 5
+
+#endif

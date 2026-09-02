@@ -1,0 +1,14 @@
+#ifndef BACKUP_DEFINES_H
+#define BACKUP_DEFINES_H
+
+enum e_backup_status {
+	BACKUP_OK = 0,
+	BACKUP_ERR_ARG = -1,
+	BACKUP_ERR_NO_MEM = -2,
+	BACKUP_ERR_NOT_FOUND = -4,
+	BACKUP_ERR_DB = -5,
+	BACKUP_ERR_FORK = -6,
+	BACKUP_ERR_RUN = -7
+};
+
+#endif

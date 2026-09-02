@@ -1,0 +1,13 @@
+#ifndef JOB_WORKER_DEFINES_H
+#define JOB_WORKER_DEFINES_H
+
+enum e_worker_status {
+	WORKER_OK = 0,
+	WORKER_ERR_ARG = 1,
+	WORKER_ERR_PATH = 2,
+	WORKER_ERR_DB = 3,
+	WORKER_ERR_NO_MEM = 4,
+	WORKER_ERR_BACKUP = 5
+};
+
+#endif
